@@ -1,0 +1,24 @@
+Historia 1: Usuario puede acceder con credenciales correctas
+
+Criterios de aceptación: El usuario ingresa un correo electrónico y contraseña válidos, accediendo a la página principal sin errores.
+Criterios de rechazo: El usuario no debe acceder si la contraseña es incorrecta.
+
+Historia 2: Usuario recibe un mensaje de error con contraseña incorrecta
+
+Criterios de aceptación: El usuario ingresa un correo correcto y una contraseña incorrecta, recibiendo un mensaje de error adecuado.
+Criterios de rechazo: No se debe mostrar un mensaje de error si la contraseña es correcta.
+
+Historia 3: Usuario ve el mensaje de "Correo electrónico requerido" si no ingresa un correo
+
+Criterios de aceptación: El usuario deja el campo de correo vacío y trata de iniciar sesión, recibiendo un mensaje de error.
+Criterios de rechazo: No se debe mostrar este mensaje si el correo está presente.
+
+Historia 4: Usuario ve el mensaje de "Contraseña requerida" si no ingresa una contraseña
+
+Criterios de aceptación: El usuario deja el campo de contraseña vacío y trata de iniciar sesión, recibiendo un mensaje de error.
+Criterios de rechazo: No se debe mostrar este mensaje si la contraseña está presente.
+
+Historia 5: Usuario puede ver un mensaje de error si el formato del correo es inválido
+
+Criterios de aceptación: El usuario ingresa un correo electrónico con un formato incorrecto (sin @) y recibe un mensaje de error.
+Criterios de rechazo: No se debe mostrar este mensaje si el formato del correo es correcto.
